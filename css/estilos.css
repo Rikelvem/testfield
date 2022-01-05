@@ -25,6 +25,22 @@ body {
     font-family: var(--font-corpo);
 }
 
+.icon-home::before {
+    content: "\e902";
+}
+
 .icon-perfil::before {
     content: "\e90a";
+}
+
+.icon-mensagens::before {
+    content: "\e906";
+}
+
+.icon-fotos::before {
+    content: "\e909";
+}
+
+.icon-ajustes::before {
+    content: "\e901";
 }
