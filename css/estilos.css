@@ -1,0 +1,12 @@
+/*-- BASE -- */
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icomoon.ttf);
+}
+
+
+:root {
+    --font-titulo: 'Yanone Kaffeesatz', sans-serif;
+    --font-sub-titulo: font-family: 'Josefin Sans', sans-serif;
+    --font-corpo: font-family: 'Spline Sans', sans-serif;
+}
