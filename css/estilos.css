@@ -40,17 +40,6 @@ body {
     border-radius: 10px;
 }
 
-
-.list {
-    font-family: 'icones';
-}
-
-.text {
-    font-family: var(--font-corpo);
-}
-
-
-
 .navigation ul {
     display: flex;
     width: 350px;
@@ -69,7 +58,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     width: 100%;
     text-align: center;
 }
