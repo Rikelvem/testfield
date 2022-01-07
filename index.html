@@ -10,43 +10,57 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Spline+Sans:wght@400;600;700&family=Yanone+Kaffeesatz:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/index.js" defer></script>
 </head>
 <body>
     <header>
         <div class="navigation">
             <ul>
-                <li class="list">
+                <li class="list active">
                     <a href="#">
-                        <span class="icon-home"></span>
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
                         <span class="text">Home</span>
                     </a>
                 </li>
                 <li class="list">
                     <a href="#">
-                        <span class="icon-perfil"></span>
+                        <span class="icon">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </span>
                         <span class="text">Perfil</span>
                     </a>
                 </li>
                 <li class="list">
                     <a href="#">
-                        <span class="icon-mensagens"></span>
+                        <span class="icon">
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                        </span>
                         <span class="text">Mensagens</span>
                     </a>
                 </li>
                 <li class="list">
                     <a href="#">
-                        <span class="icon-fotos"></span>
+                        <span class="icon">
+                            <ion-icon name="camera-outline"></ion-icon>
+                        </span>
                         <span class="text">Fotos</span>
                     </a>
                 </li>
                 <li class="list">
                     <a href="#">
-                        <span class="icon-ajustes"></span>
+                        <span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
                         <span class="text">Ajustes</span>
                     </a>
                 </li>
+                <div class="indicator"></div>
             </ul>
-        </div class="navigation">
+        </div>
     </header>
 </body>
 </html>
