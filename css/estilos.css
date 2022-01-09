@@ -186,8 +186,9 @@ header {
 
 .navegacao ul li {
     position: relative;
-    width: 90%;
-    border-radius: 20px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .navegacao ul li.selecionado {
