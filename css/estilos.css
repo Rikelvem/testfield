@@ -41,7 +41,7 @@ header {
     height: 70px;
     background: #fff;
     position: relative;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -208,12 +208,40 @@ header {
     transform: translateX(60px);
 }
 
+.menu__lista {
+    position: absolute;
+    top: 46.5vh;
+    left: -55vw;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px 32px;
+    transition: 0.8s;
+}
+
+.menu__lista.visivel {
+    left: 30vw;
+    transition: 0.8s;
+}
+
+.menu__lista ul {
+    font-size: 32px;
+    color: blueviolet;
+    font-weight: 800;
+    line-height: 80px;
+}
+
 /* -- SWITCH TOGGLE BOLADO -- */
 
 #toggle {
     position: absolute;
     bottom: 50px;
-    display: block;
+    display: none;
     width: 320px;
     height: 160px;
     border-radius: 160px;

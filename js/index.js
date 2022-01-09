@@ -16,6 +16,12 @@ menuToggle.onclick = function(){
     menuToggle.classList.toggle('aberto')
 }
 
+const menu = document.querySelector('.menu__lista');
+
+menuToggle.addEventListener('click', () => {
+    menu.classList.toggle('visivel');
+})
+
 // TOGGLE DARKMODE
 
 const body = document.querySelector('body');
