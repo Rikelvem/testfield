@@ -155,6 +155,59 @@ header {
     transform: translateX(calc(70px * 4));
 }
 
+/* -- MENU ABRE E FECHA -- */
+
+.menu {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background: #FFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.menu span {
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    border-radius: 10px;
+    background: blueviolet;
+    transition: 0.5s;
+}
+
+.menu span:nth-child(1) {
+    transform: translateY(-15px);
+    width: 25px;
+    left: 15px;
+}
+
+.menu.aberto span:nth-child(1) {
+    width: 40px;
+    transform: translateY(0) rotate(45deg);
+    transition-delay: 0.125s;
+}
+
+.menu span:nth-child(2) {
+    transform: translateY(15px);
+    width: 15px;
+    left: 15px;
+}
+
+.menu.aberto span:nth-child(2) {
+    width: 40px;
+    transform: translateY(0) rotate(315deg);
+    transition-delay: 0.25s;
+}
+
+.menu.aberto span:nth-child(3) {
+    transform: translateX(60px);
+}
+
 /* -- SWITCH TOGGLE BOLADO -- */
 
 #toggle {

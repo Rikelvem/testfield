@@ -9,6 +9,13 @@ function activeLink(){
 list.forEach((item) =>
 item.addEventListener('click', activeLink))
 
+// MENU ABRE E FECHA
+
+let menuToggle = document.querySelector('.menu');
+menuToggle.onclick = function(){
+    menuToggle.classList.toggle('aberto')
+}
+
 // TOGGLE DARKMODE
 
 const body = document.querySelector('body');
