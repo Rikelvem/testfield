@@ -31,8 +31,9 @@ body {
 /* -- TENTATIVA MENU -- */ 
 
 header {
-    /* position: fixed;
-    bottom: -150px; */
+    position: fixed;
+    bottom: 50px;
+    left: 10px;
 }
 
 .navigation {
@@ -158,6 +159,7 @@ header {
 
 #toggle {
     position: absolute;
+    bottom: 50px;
     display: block;
     width: 320px;
     height: 160px;
