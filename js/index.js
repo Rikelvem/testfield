@@ -11,16 +11,12 @@ item.addEventListener('click', activeLink))
 
 // MENU ABRE E FECHA
 
+const menu = document.querySelector('.menu__lista');
 let menuToggle = document.querySelector('.menu');
 menuToggle.onclick = function(){
-    menuToggle.classList.toggle('aberto')
-}
-
-const menu = document.querySelector('.menu__lista');
-
-menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('aberto');
     menu.classList.toggle('visivel');
-})
+}
 
 // TOGGLE DARKMODE
 
