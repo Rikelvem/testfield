@@ -9,6 +9,26 @@ function activeLink(){
 list.forEach((item) =>
 item.addEventListener('click', activeLink))
 
+// MENU DESKTOP BRABO
+
+let menuDesktop = document.querySelector('.menu__desktop');
+let navegacao = document.querySelector('.navegacao')
+menuDesktop.onclick = function(){
+    menuDesktop.classList.toggle('aberto');
+    navegacao.classList.toggle('aberto');
+}
+
+let lista = document.querySelectorAll('.lista');
+for (let i=0; i<lista.length; i++){
+    lista[i].onclick = function() {
+        let j = 0;
+        while (j < lista.length) {
+            lista[j++].className = 'lista';
+        }
+        lista[i].className = 'lista selecionado';
+    }
+}
+
 // MENU ABRE E FECHA
 
 const menu = document.querySelector('.menu__lista');
