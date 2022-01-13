@@ -432,6 +432,7 @@ body.darkmode__ativo {
     transition:0.5s;
     border-radius: 4px;
     overflow: hidden;
+    display: none;
 }
 
 .details.open {
