@@ -46,3 +46,11 @@ toggle.onclick = function (){
     toggle.classList.toggle('darkmode__ativo');
     body.classList.toggle('darkmode__ativo');
 }
+
+// DETAILS IMPROVISADO
+
+const detailsImprovisado = document.querySelector('.details');
+document.querySelector('.conteudo').onclick = function(){
+    this.classList.toggle('open');
+    detailsImprovisado.classList.toggle('open');
+}
